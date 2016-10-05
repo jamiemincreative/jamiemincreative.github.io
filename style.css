@@ -1,0 +1,365 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Raleway:300,400';
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	color: #121212;
+}
+
+a:focus {
+	outline: none;
+}
+
+#container {
+/*	width: 300px;*/
+	margin: 0 auto;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*=========================
+Above the Fold==========================*/
+
+.fold {
+	height: 700px;
+/*	background: blue;*/
+	background: url(img/fold-bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: center
+}
+
+header {
+	padding: 30px 40px 20px 40px;
+	background: white;
+	border-bottom: 0.5px solid #cdcccc;
+}
+
+
+header > div.wrapper > a > p {
+	text-align: right;
+	text-decoration: none;
+	color: #121212;
+	font-size: 0.9em;
+}
+
+
+.fold > div.wrapper> h1 {
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+	width: 90%;
+	
+}
+
+.fold > div.wrapper > p {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 1.3em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	width: 60%;
+}
+
+.fold> div.wrapper > ul {
+	margin: 0 50px;
+	margin-top: 10px;
+}
+
+.fold> div.wrapper > ul > li {
+	text-align: center;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+
+.fold > div.wrapper > ul > li > a {
+	display: inline-block;
+	padding: 10px 10px;
+	margin-top: 10px;
+	width: 70px;
+	border: 1px solid #121212;
+	border-radius: 20px;
+	
+	
+	text-align: center;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	opacity: 1;
+	
+	transition: 0.5s ease;
+}
+
+.fold > div.wrapper > ul > li > a:hover {
+	display: inline-block;
+	padding: 10px 10px;
+	
+	margin-top: 10px;
+	width: 80px;
+	border: 1px solid #121212;
+	border-radius: 20px;
+	
+	background: #fff;
+	
+	text-align: center;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	opacity: 1;
+	background: #121212;
+	color: white;
+}
+
+
+.fold > div.wrapper > img {
+	width: 120%;
+	position: relative; 
+	right: -30px;
+	top: -100px;
+	z-index: -1;
+}
+
+
+/*=========================
+About Jamie ==========================*/
+
+
+#about {
+	background: url(img/zwartevilt.png);
+	text-align: center;
+	
+}
+
+#about > h2 {
+	font-size: 1.8em;
+	padding-top: 50px;
+	margin-bottom: 30px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+#about > p {
+	padding: 10px 30px;
+	color: white;
+	line-height: 25px;
+	font-size: 0.9em;
+}
+
+
+#about > ul > li {
+	text-align: center;
+}
+
+#about > ul > li > a {
+	display: inline-block;
+	width: 60px;
+	color: white;
+	padding: 10px 20px;
+	margin-top: 15px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	text-align: center;
+	
+	transition: 0.5s ease;
+}
+
+#about > ul > li > a:hover {
+	display: inline-block;
+	width: 70px;
+	
+	background: white;
+	color: #121212;
+	padding: 10px 20px;
+	margin-top: 15px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	text-align: center;
+}
+
+#about > ul > li:last-child {
+	margin-top: 5px;
+	padding-bottom: 50px;
+}
+
+
+/* =====================================
+SERVICES =============================== */
+#services {
+	background: url(img/cream_pixels.png);
+	text-align: center;
+	
+}
+
+#services > h2 {
+	font-size: 1.8em;
+	padding-top: 50px;
+	margin-bottom: 25px;
+	color: #121212;
+	letter-spacing: 2px;
+}
+
+/*Graphic Design*/
+
+#graphic-design {
+	margin-bottom: 30px;
+	padding-top: 10px;
+}
+
+
+#graphic-design > h3 {
+	margin-bottom: 15px;
+	color: #121212;
+	letter-spacing: 2px;
+}
+
+#graphic-design > ul > li {
+	margin-top: 10px;
+	opacity: 0.7;
+	transition: 300ms ease-in-out;
+}
+
+#graphic-design > ul > li:hover {
+	margin-top: 10px;
+	opacity: 1;
+}
+
+
+/*Web & Digital*/
+
+#web-design {
+	padding-bottom: 60px;
+	padding-top: 10px;
+}
+
+
+#web-design > h3 {
+	margin-bottom: 15px;
+	color: #121212;
+	letter-spacing: 2px;
+}
+
+#web-design > ul > li {
+	margin-top: 10px;
+	opacity: 0.7;
+	transition: 300ms ease-in-out;
+}
+
+#web-design > ul > li:hover {
+	margin-top: 10px;
+	opacity: 1;
+}
+
+
+
+/*====================================
+CONTACT =================================*/
+#contact {
+	background: #121212;
+	text-align: center;
+}
+
+#contact > h2 {
+	font-size: 1.8em;
+	padding-top: 50px;
+	margin-bottom: 25px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+
+#contact > p {
+	color: #fff;
+	margin-top: 30px;
+}
+
+#email-address {
+	font-size: 0.9em;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	padding: 10px 30px;
+	border: 1px solid white;
+	border-radius: 30px;
+	margin-top: 20px;
+	width: 180px;
+	margin-bottom: 20px;
+	
+	transition: 500ms ease-in-out;
+	
+}
+
+/*
+#email-address:hover {
+	text-align: center;
+	color: black;
+	background-color: white;
+	width: 230px;
+	display: inline-block;
+	padding: 10px 30px;
+	border: 1px solid white;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+*/
+
+
+
+
+#contact > ul > li {
+	display: inline-block; 
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-right: 10px;
+}
+
+#contact > ul > li:last-child {
+	margin-right: 0px;
+}
+
+#contact > ul > li > a > img {
+	width: 25px;
+	height: 25px;
+	opacity: 0.7;
+	transition: 300ms ease;
+}
+
+#contact > ul > li > a > img:hover {
+	width: 25px;
+	opacity: 1;
+}
+
+p#email-address {
+	margin-top: 30px;
+	
+}
+
+
+
+
+/*======================================
+Footer=================================*/
+
+.footer {
+	text-align: center;
+	background: #121212;
+}
+
+.footer > p {
+	color: #fff;
+	padding: 10px 0px;
+	font-size: 0.7em;
+	
+}

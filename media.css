@@ -1,0 +1,386 @@
+/*750px and Wider*/
+
+@media screen and (min-width: 750px) {
+
+	.wrapper {
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+#container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*=========================
+Above the Fold==========================*/
+
+.fold {
+	height: 100vh;
+/*	background: blue;*/
+	overflow: hidden;
+}
+
+header {
+	padding: 30px 0px 20px 0px;
+/*	background: green;*/
+	border-bottom: 0.5px solid #cdcccc;
+}
+
+
+header > div.wrapper > a > img {
+		width: 300px;
+		display: inline-block;
+		transition: 500ms ease-in-out;
+	}
+	
+
+	
+header > div.wrapper> a > p {
+	margin-top: 10px;
+	margin-left: 10px;
+	text-align: left;
+	text-decoration: none;
+	color: #121212;
+	font-size: 0.8em;
+	display: inline-block;
+}
+
+
+.fold > div.wrapper > h1 {
+	text-align: left;
+	margin-left: 0px;
+	margin-top: 80px;
+	font-size: 4em;
+	line-height: 1em;
+	
+}
+
+.fold > div.wrapper > p {
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	width: 60%;
+	margin-left: 3px;
+	font-size: 2em;
+	margin-top: 10px;
+}
+
+.fold > div.wrapper > ul {
+	margin-left: 0px;
+}
+
+	.fold> div.wrapper> ul > li {
+		display: inline-block; 
+	}
+	
+.fold > div.wrapper > ul > li > a {
+	display: inline-block;
+	padding: 10px 10px;
+	margin-top: 30px;
+	margin-right: 10px;
+	width: 100px;
+	border: 1px solid #121212;
+	border-radius: 40px;
+	
+	background: none;
+	
+	text-align: center;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	opacity: 0.8;
+	
+	transition: 0.5s ease;
+}
+
+.fold > div.wrapper > ul > li > a:hover {
+	display: inline-block;
+	padding: 10px 10px;
+	
+	margin-top: 30px;
+	margin-right: 20px;;
+	width: 120px;
+	border: 1px solid #121212;
+	border-radius: 40px;
+	
+	text-align: center;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	opacity: 1;
+	background: #121212;
+	color: white;
+}
+
+
+.fold > div.wrapper > img {
+	width: 80%;
+	position: relative; 
+	right: -400px;
+	top: -300px;
+	z-index: -1;
+}
+
+
+/*=========================
+About Jamie ==========================*/
+
+
+#about {
+	background: url(img/zwartevilt.png);
+	text-align: center;
+	
+}
+
+#about > h2 {
+	font-size: 2.5em;
+	padding-top: 90px;
+	margin-bottom: 30px;
+	color: white;
+	letter-spacing: 7px;
+}
+
+#about > p {
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px 30px;
+	color: white;
+	line-height: 25px;
+	font-size: 1.2em;
+}
+
+
+#about > ul > li {
+	text-align: center;
+}
+
+#about > ul > li > a {
+	display: inline-block;
+	width: 90px;
+	color: white;
+	padding: 10px 20px;
+	margin-top: 30px;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	
+	transition: 0.5s ease;
+}
+
+#about > ul > li > a:hover {
+	display: inline-block;
+	width: 110px;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	
+	background: white;
+	color: #121212;
+	padding: 10px 20px;
+	margin-top: 30px;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	text-align: center;
+}
+
+#about > ul > li:last-child {
+	margin-top: 5px;
+	padding-bottom: 90px;
+}
+
+
+/* =====================================
+SERVICES =============================== */
+#services {
+	background: url(img/cream_pixels.png);
+	text-align: center;
+	
+}
+
+	
+	
+#services > h2 {
+	font-size: 2.5em;
+	padding-top: 90px;
+	margin-bottom: 30px;
+	color: #121212;
+	letter-spacing: 7px;
+}
+
+.flex1 {
+		display: flex;
+		justify-content: center;
+	padding-bottom: 70px;
+	padding-top: 15px;
+		
+	}	
+	
+	
+/*Graphic Design*/
+
+#graphic-design {
+	
+	margin-bottom: 30px;
+	padding-top: 10px;
+	margin-right: 40px;
+}
+
+
+#graphic-design > h3 {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	color: #121212;
+	letter-spacing: 4px;
+}
+
+#graphic-design > ul > li {
+	margin-top: 20px;
+	opacity: 0.7;
+	font-size: 1.2em;
+	transition: 300ms ease-in-out;
+}
+
+#graphic-design > ul > li:hover {
+	margin-top: 20px;
+	opacity: 1;
+	font-size: 1.2em;
+}
+
+
+/*Web & Digital*/
+
+#web-design {
+	margin-left: 40px;
+	padding-bottom: 60px;
+	padding-top: 10px;
+}
+
+
+#web-design > h3 {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	color: #121212;
+	letter-spacing: 4px;
+}
+
+#web-design > ul > li {
+	margin-top: 20px;
+	opacity: 0.7;
+	font-size: 1.2em;
+	transition: 300ms ease-in-out;
+}
+
+#web-design > ul > li:hover {
+	margin-top: 20px;
+	font-size: 1.2em;
+	opacity: 1;
+}
+
+
+
+/*====================================
+CONTACT =================================*/
+#contact {
+	background: #121212;
+	text-align: center;
+}
+
+#contact > h2 {
+	font-size: 2.5em;
+	padding-top: 90px;
+	margin-bottom: 30px;
+	color: #fff;
+	letter-spacing: 7px;
+}
+
+#email-address {
+	font-size: 1.3em;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	padding: 10px 30px;
+	border: 1px solid white;
+	border-radius: 30px;
+	margin-top: 30px;
+	width: 300px;
+	margin-bottom: 20px;
+	letter-spacing: 0.5px;
+	
+	transition: 500ms ease-in-out;
+	
+}
+
+/*
+#email-address:hover {
+	font-size: 1.3em;
+	text-align: center;
+	color: black;
+	background-color: white;
+	width: 330px;
+	display: inline-block;
+	padding: 10px 30px;
+	border: 1px solid white;
+	border-radius: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	letter-spacing: 0.5px;
+	
+}
+*/
+
+#contact > p {
+	color: #fff;
+	margin-top: 50px;
+	font-size: 1.4em;
+	letter-spacing: 1px;
+}
+
+#contact > ul > li {
+	display: inline-block; 
+	margin-top: 35px;
+	margin-bottom: 90px;
+	margin-right: 25px;
+}
+
+#contact > ul > li:last-child {
+	margin-right: 0px;
+}
+
+#contact > ul > li > a > img {
+	width: 30px;
+	opacity: 0.7;
+	transition: 300ms ease-in-out;
+}
+
+#contact > ul > li > a > img:hover {
+	width: 30px;
+	opacity: 1;
+}
+
+p#email-address {
+	margin-top: 50px;
+}
+
+	
+/*======================================
+Footer=================================*/
+
+.footer {
+	text-align: center;
+	background: #121212;
+}
+
+.footer > p {
+	color: #fff;
+	padding: 10px 0px;
+	font-size: 0.7em;
+}
+	
+	
+	
+	
+	
+}

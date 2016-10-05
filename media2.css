@@ -1,0 +1,98 @@
+/*Between 441px and 749px*/
+
+@media screen and (min-width: 441px)and (max-width: 749px) {
+	
+
+header {
+	padding: 30px 20px 20px 20px;
+/*	background: green;*/
+	border-bottom: 0.5px solid #cdcccc;
+}
+
+
+	header > div.wrapper > a > img {
+		margin: 0px 50px;
+	}
+	
+header > div.wrapper > a > p {
+	text-align: right;
+	text-decoration: none;
+	color: #121212;
+	font-size: 0.9em;
+	margin-right: 50px;
+}
+
+
+.fold > div.wrapper> h1 {
+	width: 50%;
+	margin-top: 40px;
+	margin-left: 70px;
+	margin-right: 70px;
+	font-size: 3em;
+	line-height: 1em;
+	text-align: left;
+	
+}
+
+.fold > div.wrapper > p {
+	font-family: 'Raleway', sans-serif;
+	width: 60%;
+	font-size: 1.8em;
+	margin-left: 70px;
+	margin-top: 5px;
+	text-align: left;
+}
+
+.fold > div.wrapper > ul {
+	margin-left: 70px;
+}
+	
+	.fold > div.wrapper > ul > li {
+		text-align: left;
+	}
+
+.fold > div.wrapper > ul > li > a {
+	display: inline-block;
+	padding: 10px 10px;
+	margin-top: 15px;
+	width: 90px;
+	border: 1px solid #121212;
+	border-radius: 30px;
+	
+	background: none;
+	
+	text-align: center;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	opacity: 0.8;
+	
+	transition: 0.5s ease;
+}
+
+.fold > div.wrapper > ul > li > a:hover {
+	display: inline-block;
+	padding: 10px 10px;
+	
+	margin-top: 15px;
+	width: 110px;
+	border: 1px solid #121212;
+	border-radius: 30px;
+	
+	text-align: center;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	opacity: 1;
+	background: #121212;
+	color: white;
+}
+
+
+.fold > div.wrapper > img {
+	width: 120%;
+	position: relative; 
+	right: -150px;
+	top: -280px;
+	z-index: -1;
+}
+	
+}
